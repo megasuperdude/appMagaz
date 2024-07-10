@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IslamDip" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">#1a93d7</item>
+        <item name="fontFamily">@font/santello</item>
+    </style>
+
+    <style name="Theme.IslamDip" parent="Base.Theme.IslamDip" />
+
+    <style name="Widget.AppCompat.SearchView." parent="">
+        <item name="android:editTextColor">#fff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+    </style>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainCard">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeWidth="0dp">
+
+        <ImageView
+            android:id="@+id/cardImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:background="@color/hint_color" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView">
+
+        <TextView
+            android:id="@+id/cardPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6000 тг"
+            android:textSize="14sp"
+            android:textColor="@color/price_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Musofir"
+            android:textSize="14sp"
+            android:textColor="@color/text_color"/>
+
+        <TextView
+            android:id="@+id/cardDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simple description..."
+            android:textSize="12sp"
+            android:maxLength="15"
+            android:textColor="@color/hint_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 мая"
+            android:textSize="12sp"
+            android:textColor="@color/hint_color"
+            android:drawableStart="@drawable/baseline_delivery_dining_24"
+            android:drawablePadding="5dp"/>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/addCartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:background="@color/white"
+        android:contentDescription="cart_btn"
+        android:src="@drawable/baseline_add_shopping_cart_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

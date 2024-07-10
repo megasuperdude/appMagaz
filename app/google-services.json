@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "322321416435",
+    "firebase_url": "https://islamdip-de23d-default-rtdb.firebaseio.com",
+    "project_id": "islamdip-de23d",
+    "storage_bucket": "islamdip-de23d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322321416435:android:c3807b6f32751f33a17786",
+        "android_client_info": {
+          "package_name": "com.example.islamdip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBighQgmteC8X9db-8RULDRgl_ZmJbmAlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

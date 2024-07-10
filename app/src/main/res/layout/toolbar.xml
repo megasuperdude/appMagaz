@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#1a93d7"
+    android:elevation="8dp"
+    app:titleTextColor="@color/white">
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/baseline_filter_list_alt_24"
+        android:popupBackground="@drawable/custom_btn"
+        android:spinnerMode="dialog"
+        tools:listitem="@layout/custom_spinner_item"/>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        app:queryHint="search..."
+        android:theme="@style/Widget.AppCompat.SearchView."
+        app:searchIcon="@drawable/baseline_manage_search_24" />
+
+
+
+</androidx.appcompat.widget.Toolbar>
