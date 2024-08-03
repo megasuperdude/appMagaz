@@ -1,1 +1,2 @@
-["# appMagaz" ](https://github.com/user-attachments/assets/573626b3-a523-4d11-9221-9ed08168f88b)
+
+![video_2024-08-03_20-15-13](https://github.com/user-attachments/assets/7618812d-399c-4243-9023-012c5bfb1138)
